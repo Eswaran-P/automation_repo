@@ -1,0 +1,9 @@
+---
+ - hosts: localhost
+   connection: local
+   gather_facts: no
+
+   tasks:
+     - name: print the branch
+       debug:
+         msg: hello print the branch
