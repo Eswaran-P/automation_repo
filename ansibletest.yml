@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: printing another message
+      debug:
+        msg: hello there      
