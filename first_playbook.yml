@@ -1,9 +1,0 @@
----
-- hosts: localhost
-  connection: local
-  gather_facts: no
-
-  tasks:
-    - name: print hello world
-      debug:
-        msg: "My first ansible playbook"
